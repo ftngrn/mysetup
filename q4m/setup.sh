@@ -8,7 +8,8 @@ CDIR=$(cd $(dirname $0) && pwd)
 cd /usr/local/src
 
 if [ ! -f mysql-$MYVER.tar.gz ]; then
-    wget http://downloads.mysql.com/archives/mysql-5.1/mysql-$MYVER.tar.gz
+#    wget http://downloads.mysql.com/archives/mysql-5.1/mysql-$MYVER.tar.gz
+    wget www-jp.mysql.com/get/Downloads/MySQL-5.1/mysql-$MYVER.tar.gz/from/ftp://ftp.jaist.ac.jp/pub/mysql/
 fi
 
 if [ -d mysql-$MYVER ]; then
